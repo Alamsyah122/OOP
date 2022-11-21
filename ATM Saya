@@ -1,0 +1,29 @@
+print('SELAMAT DATANG DI ATM')
+print('PILIH MENU')
+print('1. check uang')
+print('2. Ambil uang')
+print('3. Tabung uang')
+option=int(input('silahkan pilih Menu :'))
+Saldo_Saya = 200000
+if option==1:
+  print('Saldo saya berjumlah Rp.200.000')
+elif option==2:
+  print('Saldo saya berjumlah Rp.200.000 , mau ambil berapa?')
+  print('1. Rp. 100.000')  
+  print('2. Rp. 200.000')
+  option2=int(input('option :'))
+  if option2==1:
+     hasil=Saldo_Saya-100000
+     print('Saldo saya sekarang berjumlah ' , hasil1)
+  elif option2==2:
+    hasil2=Saldo_Saya-200000
+    print('Saldo saya sekarang berjumlah' , hasil2) 
+  else:
+    print('keyword anda salah mohom ulangi lagi!') 
+elif option==3:
+  print('Saldo saya berjumlah Rp.200.000, ingin menambung berapa?')
+  option3=int(input('masukkan jumlah uang'))
+  hasil3=Saldo_Saya+option3
+  print('jumlah Saldo anda sekarang adalah' , hasil3)
+else:
+  print("pilihan anda salah , silahkan coba 
